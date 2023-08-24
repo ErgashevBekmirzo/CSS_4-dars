@@ -1,0 +1,167 @@
+body{
+    background-color: #c8e9f0;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 24px 10px;
+    position: relative;
+}
+.navbar-item a{
+    color: grey;
+    text-decoration: none;
+}
+.flex-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: justify;
+}
+.flex-item{
+    /*border: 1px solid red;*/
+    padding: 10px 15px;
+}
+.flex-item p{
+    background-color: white;
+    padding: 15px;
+}
+.navbar-item:hover{
+    background-color: white;
+}
+.navbar-item:hover a{
+    color: blue;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn{
+    display: inline-block;
+    padding: 14px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: #34c9cb;
+    border-bottom: 8px solid #248f91;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+.btn:active{
+    border-bottom-width: 4px;
+    margin-top: 4px;
+}
+.btn:focus{
+    border-bottom-width: 4px;
+    margin-top: 4px;
+}
+.btn:hover{
+    border-radius: 28px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 80px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.fix{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #248f91;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    line-height: 45px;
+    background-image: url("https://cdn.onlinewebfonts.com/svg/img_69492.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*transform: rotate(180deg);*/
+}
+.flex-box{
+    width: 1200px;
+    margin: 0;
+    display: flex;
+    text-align: justify;
+}
+.flex-item{
+    position: relative;
+    /*border: 1px solid red;*/
+}
+.badge{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.sale{
+    background-color: #248f91;
+    color: white;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.navbar-item::after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url("https://cdn.onlinewebfonts.com/svg/img_69492.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    /*vertical-align: middle;
+    margin-left: 4px;*/
+    position: absolute;
+    top: 25px;
+    right: 5px;
+}
+.navbar-item{
+    padding-right: 22px;
+
+}
+.drop-menu{
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 155px;
+    background-color: #ffffff;
+    z-index: 1;
+    display: none;
+}
+.navbar-item:hover .drop-menu{
+    display: block;
+}

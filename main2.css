@@ -1,0 +1,29 @@
+body{
+    background-color: cornflowerblue;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-menu{
+    margin: 0;
+    margin-left: 400px;
+    padding: 0;
+    text-align: center;
+}
+.navbar-logo{
+    margin-top: 0;
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: -60px;
+}
+.navbar-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar-item:hover{
+    color: blue;
+}

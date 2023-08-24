@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+.wrap{
+    width: 600px;
+    margin: 50px auto;
+    background-color: slategrey;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 26px;
+    text-decoration: none;
+    color: red;
+    background-color: lightslategrey;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-left: 25px;
+    margin-top: 70px;
+}
+.btn2{
+    display: inline-block;
+    padding: 10px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: lightgreen;
+    border: 2px solid grey;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.btn3{
+    display: inline-block;
+    padding: 10px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    border-radius: 8px;
+}
+.btn4{
+    display: inline-block;
+    padding: 10px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.btn5{
+    display: inline-block;
+    padding: 10px 26px;
+    text-decoration: none;
+    color: mediumslateblue;
+    background-color: lightslategrey;
+    border: 2px solid mediumslateblue;
+    border-radius: 8px;
+    margin-right: 50px;
+}
+.btn6{
+    display: inline-block;
+    padding: 10px 26px;
+    text-decoration: none;
+    color: lawngreen;
+    background-color: lightslategrey;
+    border: 2px solid lawngreen;
+    border-radius: 30px;
+}
+
